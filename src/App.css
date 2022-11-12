@@ -6,7 +6,7 @@
 body{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start;
   background-color: #5A20CB;
   height: 100vh;
 }
@@ -16,8 +16,10 @@ body{
   background-color: #242B2E;
   border-radius: 10px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 h1{
@@ -59,7 +61,7 @@ button:hover{
   justify-content: center;
   align-items: center;
   margin: 10%;
-  width: 50%;
+  width: 100%;
 }
 
 #heading{
@@ -98,3 +100,27 @@ button:hover{
   cursor: pointer;
 }
 
+
+@media screen and (max-width:768px){
+    h1{
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width:425px){
+  h1{
+      font-size: 2rem;
+  }
+
+  .card{
+    width: 70vw;
+    background-color: #242B2E;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
