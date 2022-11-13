@@ -22,7 +22,7 @@ export default function Card() {
     return (
         <div className="card">
             <div className="card-container">
-            <h1>To-Do List</h1>
+            <h1>Sahil</h1>
             <Stack w="100%" h="100%">
                 <input placeholder='Enter Todo' id="input" backgroundColor="white" marginBottom="10px"  onChange={(e)=>{setNewTodo(e.target.value)}}/>
                 <button onClick={addTodo} >Add Todos</button>
