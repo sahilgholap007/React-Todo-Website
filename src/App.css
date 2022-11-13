@@ -76,9 +76,8 @@ button:hover{
 }
 
 .todo-component{
-  background-color: #000;
+  background-color: #805ad5;
   width: 100%;
-  padding: 1%;
   color: white;
   display: flex;
   align-items: center;
